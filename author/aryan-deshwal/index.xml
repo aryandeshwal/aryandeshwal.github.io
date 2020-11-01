@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>Information-Theoretic Multi-Objective Bayesian Optimization with Continuous Approximations</title>
+      <link>https://aryandeshwal.github.io/publication/belakaria-2020-imoca/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      <guid>https://aryandeshwal.github.io/publication/belakaria-2020-imoca/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Max-value Entropy Search for Multi-Objective Bayesian Optimization with Constraints</title>
       <link>https://aryandeshwal.github.io/publication/belakaria-2020-max/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
