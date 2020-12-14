@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="We study the novel problem of blackbox optimization of multiple objectives via multi-fidelity function evaluations that vary in the amount of resources consumed and their accuracy. The overall goal is to approximate the true Pareto set of solutions by minimizing the resources consumed for function evaluations. For example, in power system design optimization, we need to find designs that trade-off cost, size, efficiency, and thermal tolerance using multi-fidelity simulators for design evaluations. In this paper, we propose a novel approach referred as Multi-Fidelity Output Space Entropy Search for Multi-objective Optimization (MF-OSEMO) to solve this problem. The key idea is to select the sequence of candidate input and fidelity-vector pairs that maximize the information gained about the true Pareto front per unit resource cost. Our experiments on several synthetic and real-world benchmark problems show that MF-OSEMO, with both approximations, significantly improves over the state-of-the-art single-fidelity algorithms for multi-objective optimization.">
+  <meta name="description" content="Bayesian optimization (BO) is an efficient framework for solving black-box optimization problems with expensive function evaluations. This paper addresses the BO problem setting for combinatorial spaces (e.g., sequences and graphs) that occurs naturally in science and engineering applications. A prototypical example is molecular optimization guided by expensive experiments. The key challenge is to balance the complexity of statistical models and tractability of search to select combinatorial structures for evaluation. In this paper, we propose an efficient approach referred as Mercer Features for Combinatorial Bayesian Optimization (MerCBO). The key idea behind MerCBO is to provide explicit feature maps for diffusion kernels over discrete objects by exploiting the structure of their combinatorial graph representation. These Mercer features combined with Thompson sampling as the acquisition function allows us to employ efficient solvers for finding the next structure for evaluation. Experimental evaluation on diverse real-world benchmarks demonstrates that MerCBO performs similarly or better than prior methods.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://aryandeshwal.github.io/publication/belakaria-2020-mf-osemo/">
+  <link rel="alternate" hreflang="en-us" href="https://aryandeshwal.github.io/publication/deshwal-2021-aaai/">
 
   
 
@@ -296,7 +296,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://aryandeshwal.github.io/publication/belakaria-2020-mf-osemo/">
+  <link rel="canonical" href="https://aryandeshwal.github.io/publication/deshwal-2021-aaai/">
 
   
   
@@ -312,15 +312,15 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Aryan Deshwal">
-  <meta property="og:url" content="https://aryandeshwal.github.io/publication/belakaria-2020-mf-osemo/">
-  <meta property="og:title" content="Multi-Fidelity Multi-Objective Bayesian Optimization, An Output Space Entropy Search Approach | Aryan Deshwal">
-  <meta property="og:description" content="We study the novel problem of blackbox optimization of multiple objectives via multi-fidelity function evaluations that vary in the amount of resources consumed and their accuracy. The overall goal is to approximate the true Pareto set of solutions by minimizing the resources consumed for function evaluations. For example, in power system design optimization, we need to find designs that trade-off cost, size, efficiency, and thermal tolerance using multi-fidelity simulators for design evaluations. In this paper, we propose a novel approach referred as Multi-Fidelity Output Space Entropy Search for Multi-objective Optimization (MF-OSEMO) to solve this problem. The key idea is to select the sequence of candidate input and fidelity-vector pairs that maximize the information gained about the true Pareto front per unit resource cost. Our experiments on several synthetic and real-world benchmark problems show that MF-OSEMO, with both approximations, significantly improves over the state-of-the-art single-fidelity algorithms for multi-objective optimization."><meta property="og:image" content="https://aryandeshwal.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://aryandeshwal.github.io/publication/deshwal-2021-aaai/">
+  <meta property="og:title" content="Mercer Features for Efficient Combinatorial Bayesian Optimization | Aryan Deshwal">
+  <meta property="og:description" content="Bayesian optimization (BO) is an efficient framework for solving black-box optimization problems with expensive function evaluations. This paper addresses the BO problem setting for combinatorial spaces (e.g., sequences and graphs) that occurs naturally in science and engineering applications. A prototypical example is molecular optimization guided by expensive experiments. The key challenge is to balance the complexity of statistical models and tractability of search to select combinatorial structures for evaluation. In this paper, we propose an efficient approach referred as Mercer Features for Combinatorial Bayesian Optimization (MerCBO). The key idea behind MerCBO is to provide explicit feature maps for diffusion kernels over discrete objects by exploiting the structure of their combinatorial graph representation. These Mercer features combined with Thompson sampling as the acquisition function allows us to employ efficient solvers for finding the next structure for evaluation. Experimental evaluation on diverse real-world benchmarks demonstrates that MerCBO performs similarly or better than prior methods."><meta property="og:image" content="https://aryandeshwal.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://aryandeshwal.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
-      <meta property="article:published_time" content="2020-09-22T03:19:26&#43;00:00">
+      <meta property="article:published_time" content="2020-09-22T03:19:28&#43;00:00">
     
-    <meta property="article:modified_time" content="2020-09-21T20:19:27-07:00">
+    <meta property="article:modified_time" content="2020-09-21T20:19:28-07:00">
   
 
   
@@ -342,16 +342,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://aryandeshwal.github.io/publication/belakaria-2020-mf-osemo/"
+    "@id": "https://aryandeshwal.github.io/publication/deshwal-2021-aaai/"
   },
-  "headline": "Multi-Fidelity Multi-Objective Bayesian Optimization, An Output Space Entropy Search Approach",
+  "headline": "Mercer Features for Efficient Combinatorial Bayesian Optimization",
   
-  "datePublished": "2020-09-22T03:19:26Z",
-  "dateModified": "2020-09-21T20:19:27-07:00",
+  "datePublished": "2020-09-22T03:19:28Z",
+  "dateModified": "2020-09-21T20:19:28-07:00",
   
   "author": {
     "@type": "Person",
-    "name": "Syrine Belakaria"
+    "name": "Aryan Deshwal"
   },
   
   "publisher": {
@@ -362,7 +362,7 @@
       "url": "https://aryandeshwal.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "We study the novel problem of blackbox optimization of multiple objectives via multi-fidelity function evaluations that vary in the amount of resources consumed and their accuracy. The overall goal is to approximate the true Pareto set of solutions by minimizing the resources consumed for function evaluations. For example, in power system design optimization, we need to find designs that trade-off cost, size, efficiency, and thermal tolerance using multi-fidelity simulators for design evaluations. In this paper, we propose a novel approach referred as Multi-Fidelity Output Space Entropy Search for Multi-objective Optimization (MF-OSEMO) to solve this problem. The key idea is to select the sequence of candidate input and fidelity-vector pairs that maximize the information gained about the true Pareto front per unit resource cost. Our experiments on several synthetic and real-world benchmark problems show that MF-OSEMO, with both approximations, significantly improves over the state-of-the-art single-fidelity algorithms for multi-objective optimization."
+  "description": "Bayesian optimization (BO) is an efficient framework for solving black-box optimization problems with expensive function evaluations. This paper addresses the BO problem setting for combinatorial spaces (e.g., sequences and graphs) that occurs naturally in science and engineering applications. A prototypical example is molecular optimization guided by expensive experiments. The key challenge is to balance the complexity of statistical models and tractability of search to select combinatorial structures for evaluation. In this paper, we propose an efficient approach referred as Mercer Features for Combinatorial Bayesian Optimization (MerCBO). The key idea behind MerCBO is to provide explicit feature maps for diffusion kernels over discrete objects by exploiting the structure of their combinatorial graph representation. These Mercer features combined with Thompson sampling as the acquisition function allows us to employ efficient solvers for finding the next structure for evaluation. Experimental evaluation on diverse real-world benchmarks demonstrates that MerCBO performs similarly or better than prior methods."
 }
 </script>
 
@@ -380,7 +380,7 @@
 
 
 
-  <title>Multi-Fidelity Multi-Objective Bayesian Optimization, An Output Space Entropy Search Approach | Aryan Deshwal</title>
+  <title>Mercer Features for Efficient Combinatorial Bayesian Optimization | Aryan Deshwal</title>
 
 </head>
 
@@ -638,7 +638,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Multi-Fidelity Multi-Objective Bayesian Optimization, An Output Space Entropy Search Approach</h1>
+  <h1>Mercer Features for Efficient Combinatorial Bayesian Optimization</h1>
 
   
 
@@ -656,7 +656,7 @@
     
 
   
-  <span >Syrine Belakaria</span>, <span >Aryan Deshwal</span>, <span >Janardhan Rao Doppa</span>
+  <span >Aryan Deshwal</span>, <span >Syrine Belakaria</span>, <span >Janardhan Rao Doppa</span>
   </div>
   
   
@@ -667,7 +667,7 @@
     
       
     
-    January 2020
+    February 2021
   </span>
   
 
@@ -696,53 +696,7 @@
 
 
 
-  
 
-
-
-<div class="btn-links mb-3">
-  
-  
-
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1" href="https://arxiv.org/pdf/2011.01542.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
-        data-filename="/publication/belakaria-2020-mf-osemo/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
 
 
   
@@ -754,7 +708,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">We study the novel problem of blackbox optimization of multiple objectives via multi-fidelity function evaluations that vary in the amount of resources consumed and their accuracy. The overall goal is to approximate the true Pareto set of solutions by minimizing the resources consumed for function evaluations. For example, in power system design optimization, we need to find designs that trade-off cost, size, efficiency, and thermal tolerance using multi-fidelity simulators for design evaluations. In this paper, we propose a novel approach referred as Multi-Fidelity Output Space Entropy Search for Multi-objective Optimization (MF-OSEMO) to solve this problem. The key idea is to select the sequence of candidate input and fidelity-vector pairs that maximize the information gained about the true Pareto front per unit resource cost. Our experiments on several synthetic and real-world benchmark problems show that MF-OSEMO, with both approximations, significantly improves over the state-of-the-art single-fidelity algorithms for multi-objective optimization.</p>
+    <p class="pub-abstract">Bayesian optimization (BO) is an efficient framework for solving black-box optimization problems with expensive function evaluations. This paper addresses the BO problem setting for combinatorial spaces (e.g., sequences and graphs) that occurs naturally in science and engineering applications. A prototypical example is molecular optimization guided by expensive experiments. The key challenge is to balance the complexity of statistical models and tractability of search to select combinatorial structures for evaluation. In this paper, we propose an efficient approach referred as Mercer Features for Combinatorial Bayesian Optimization (MerCBO). The key idea behind MerCBO is to provide explicit feature maps for diffusion kernels over discrete objects by exploiting the structure of their combinatorial graph representation. These Mercer features combined with Thompson sampling as the acquisition function allows us to employ efficient solvers for finding the next structure for evaluation. Experimental evaluation on diverse real-world benchmarks demonstrates that MerCBO performs similarly or better than prior methods.</p>
     
 
     
@@ -766,8 +720,8 @@
           <div class="col-12 col-md-9">
             
             
-            <a href="/publication/#1">
-              Conference paper
+            <a href="/publication/#3">
+              Preprint
             </a>
             
           </div>
@@ -784,7 +738,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>AAAI Conference on Artificial Intelligence (AAAI)</em></div>
+          <div class="col-12 col-md-9"><em>Upcoming at <a href="https://aaai.org/Conferences/AAAI-21/">Thirty-Fifth AAAI Conference on Artificial Intelligence 2021</a></em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -872,11 +826,11 @@
       
       <li><a href="/publication/belakaria-2020-max/">Max-value Entropy Search for Multi-Objective Bayesian Optimization with Constraints</a></li>
       
-      <li><a href="/publication/deshwal-2021-aaai/">Mercer Features for Efficient Combinatorial Bayesian Optimization</a></li>
-      
       <li><a href="/publication/deshwal-2020-scalable/">Scalable Combinatorial Bayesian Optimization with Tractable Statistical models</a></li>
       
       <li><a href="/publication/zhou-2020-design/">Design of Multi-Output Switched-Capacitor Voltage Regulator via Machine Learning</a></li>
+      
+      <li><a href="/publication/belakaria-2019-max/">Max-value Entropy Search for Multi-Objective Bayesian Optimization</a></li>
       
     </ul>
   </div>
