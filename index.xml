@@ -5,12 +5,20 @@
     <link>https://aryandeshwal.github.io/</link>
       <atom:link href="https://aryandeshwal.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Aryan Deshwal</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 01 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://aryandeshwal.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>Aryan Deshwal</title>
       <link>https://aryandeshwal.github.io/</link>
     </image>
+    
+    <item>
+      <title>Combining Latent Space and Structured Kernels for Bayesian Optimization over Combinatorial Spaces</title>
+      <link>https://aryandeshwal.github.io/publication/deshwal-2021-neurips/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://aryandeshwal.github.io/publication/deshwal-2021-neurips/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bayesian Optimization of Nanoporous Materials</title>
