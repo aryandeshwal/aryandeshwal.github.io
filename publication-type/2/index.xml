@@ -5,12 +5,20 @@
     <link>https://aryandeshwal.github.io/publication-type/2/</link>
       <atom:link href="https://aryandeshwal.github.io/publication-type/2/index.xml" rel="self" type="application/rss+xml" />
     <description>2</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Sep 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://aryandeshwal.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
       <title>2</title>
       <link>https://aryandeshwal.github.io/publication-type/2/</link>
     </image>
+    
+    <item>
+      <title>Multi-fidelity Bayesian Optimization of Covalent Organic Frameworks for Xenon/Krypton Separations</title>
+      <link>https://aryandeshwal.github.io/publication/nick-2023-dd/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      <guid>https://aryandeshwal.github.io/publication/nick-2023-dd/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Bayesian Optimization of Nanoporous Materials</title>

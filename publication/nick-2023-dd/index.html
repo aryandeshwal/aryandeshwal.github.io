@@ -30,10 +30,10 @@
   
     
   
-  <meta name="description" content="We consider the problem of optimizing expensive black-box functions over high-dimensional combinatorial spaces which arises in many science, engineering, and ML applications. We use Bayesian Optimization (BO) and propose a novel surrogate modeling approach for efficiently handling a large number of binary and categorical parameters. The key idea is to select a number of discrete structures from the input space (the dictionary) and use them to define an ordinal embedding for high-dimensional combinatorial structures. This allows us to use existing Gaussian process models for continuous spaces. We develop a principled approach based on binary wavelets to construct dictionaries for binary spaces, and propose a randomized construction method that generalizes to categorical spaces. We provide theoretical justification to support the effectiveness of the dictionary-based embeddings. Our experiments on diverse real-world benchmarks demonstrate the effectiveness of our proposed surrogate modeling approach over state-of-the-art BO methods.">
+  <meta name="description" content="Our objective is to search a large candidate set of covalent organic frameworks (COFs) for the one with the largest equilibrium adsorptive selectivity for xenon (Xe) over krypton (Kr) at room temperature. To predict the Xe/Kr selectivity of a COF structure, we have access to two molecular simulation techniques: (1) a higher-fidelity, binary grand canonical Monte Carlo simulation and (2) a lower-fidelity Henry coefficient calculation that (a) approximates the adsorbed phase as dilute and, consequently, (b) incurs a smaller computational runtime than the higher-fidelity simulation. To efficiently search for the COF with the largest high-fidelity Xe/Kr selectivity, we employ a multi-fidelity Bayesian optimization (MFBO) approach. MFBO constitutes a sequential, automated feedback loop of (1) conduct a low- or high-fidelity molecular simulation of Xe/Kr adsorption in a COF, (2) use the simulation data gathered thus far to train a surrogate model that cheaply predicts, with quantified uncertainty, the low- and high-fidelity simulated Xe/Kr selectivity of COFs from their structural/chemical features, and then (3) plan the next simulation (i.e., choose the next COF and fidelity) in consideration of balancing exploration, exploitation, and cost. We find that MFBO acquires the optimal COF among the candidate set of 609 structures using only 38 low-fidelity and nine high-fidelity simulations, incurring only 2.5%, 5% on average, and 18% on average of the computational runtime of an exhaustive, random, and single-fidelity BO search, respectively.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://aryandeshwal.github.io/publication/deshwal-2023-aistats/">
+  <link rel="alternate" hreflang="en-us" href="https://aryandeshwal.github.io/publication/nick-2023-dd/">
 
   
 
@@ -296,7 +296,7 @@
   <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
   <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
-  <link rel="canonical" href="https://aryandeshwal.github.io/publication/deshwal-2023-aistats/">
+  <link rel="canonical" href="https://aryandeshwal.github.io/publication/nick-2023-dd/">
 
   
   
@@ -312,9 +312,9 @@
   <meta property="twitter:card" content="summary">
   
   <meta property="og:site_name" content="Aryan Deshwal">
-  <meta property="og:url" content="https://aryandeshwal.github.io/publication/deshwal-2023-aistats/">
-  <meta property="og:title" content="Bayesian Optimization over High-Dimensional Combinatorial Spaces via Dictionary-based Embeddings | Aryan Deshwal">
-  <meta property="og:description" content="We consider the problem of optimizing expensive black-box functions over high-dimensional combinatorial spaces which arises in many science, engineering, and ML applications. We use Bayesian Optimization (BO) and propose a novel surrogate modeling approach for efficiently handling a large number of binary and categorical parameters. The key idea is to select a number of discrete structures from the input space (the dictionary) and use them to define an ordinal embedding for high-dimensional combinatorial structures. This allows us to use existing Gaussian process models for continuous spaces. We develop a principled approach based on binary wavelets to construct dictionaries for binary spaces, and propose a randomized construction method that generalizes to categorical spaces. We provide theoretical justification to support the effectiveness of the dictionary-based embeddings. Our experiments on diverse real-world benchmarks demonstrate the effectiveness of our proposed surrogate modeling approach over state-of-the-art BO methods."><meta property="og:image" content="https://aryandeshwal.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="og:url" content="https://aryandeshwal.github.io/publication/nick-2023-dd/">
+  <meta property="og:title" content="Multi-fidelity Bayesian Optimization of Covalent Organic Frameworks for Xenon/Krypton Separations | Aryan Deshwal">
+  <meta property="og:description" content="Our objective is to search a large candidate set of covalent organic frameworks (COFs) for the one with the largest equilibrium adsorptive selectivity for xenon (Xe) over krypton (Kr) at room temperature. To predict the Xe/Kr selectivity of a COF structure, we have access to two molecular simulation techniques: (1) a higher-fidelity, binary grand canonical Monte Carlo simulation and (2) a lower-fidelity Henry coefficient calculation that (a) approximates the adsorbed phase as dilute and, consequently, (b) incurs a smaller computational runtime than the higher-fidelity simulation. To efficiently search for the COF with the largest high-fidelity Xe/Kr selectivity, we employ a multi-fidelity Bayesian optimization (MFBO) approach. MFBO constitutes a sequential, automated feedback loop of (1) conduct a low- or high-fidelity molecular simulation of Xe/Kr adsorption in a COF, (2) use the simulation data gathered thus far to train a surrogate model that cheaply predicts, with quantified uncertainty, the low- and high-fidelity simulated Xe/Kr selectivity of COFs from their structural/chemical features, and then (3) plan the next simulation (i.e., choose the next COF and fidelity) in consideration of balancing exploration, exploitation, and cost. We find that MFBO acquires the optimal COF among the candidate set of 609 structures using only 38 low-fidelity and nine high-fidelity simulations, incurring only 2.5%, 5% on average, and 18% on average of the computational runtime of an exhaustive, random, and single-fidelity BO search, respectively."><meta property="og:image" content="https://aryandeshwal.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
   <meta property="twitter:image" content="https://aryandeshwal.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
@@ -342,16 +342,16 @@
   "@type": "Article",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://aryandeshwal.github.io/publication/deshwal-2023-aistats/"
+    "@id": "https://aryandeshwal.github.io/publication/nick-2023-dd/"
   },
-  "headline": "Bayesian Optimization over High-Dimensional Combinatorial Spaces via Dictionary-based Embeddings",
+  "headline": "Multi-fidelity Bayesian Optimization of Covalent Organic Frameworks for Xenon/Krypton Separations",
   
   "datePublished": "2022-09-22T03:19:28Z",
   "dateModified": "2022-09-08T20:19:28-07:00",
   
   "author": {
     "@type": "Person",
-    "name": "Aryan Deshwal"
+    "name": "Nickolas Gantzler"
   },
   
   "publisher": {
@@ -362,7 +362,7 @@
       "url": "https://aryandeshwal.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "We consider the problem of optimizing expensive black-box functions over high-dimensional combinatorial spaces which arises in many science, engineering, and ML applications. We use Bayesian Optimization (BO) and propose a novel surrogate modeling approach for efficiently handling a large number of binary and categorical parameters. The key idea is to select a number of discrete structures from the input space (the dictionary) and use them to define an ordinal embedding for high-dimensional combinatorial structures. This allows us to use existing Gaussian process models for continuous spaces. We develop a principled approach based on binary wavelets to construct dictionaries for binary spaces, and propose a randomized construction method that generalizes to categorical spaces. We provide theoretical justification to support the effectiveness of the dictionary-based embeddings. Our experiments on diverse real-world benchmarks demonstrate the effectiveness of our proposed surrogate modeling approach over state-of-the-art BO methods."
+  "description": "Our objective is to search a large candidate set of covalent organic frameworks (COFs) for the one with the largest equilibrium adsorptive selectivity for xenon (Xe) over krypton (Kr) at room temperature. To predict the Xe/Kr selectivity of a COF structure, we have access to two molecular simulation techniques: (1) a higher-fidelity, binary grand canonical Monte Carlo simulation and (2) a lower-fidelity Henry coefficient calculation that (a) approximates the adsorbed phase as dilute and, consequently, (b) incurs a smaller computational runtime than the higher-fidelity simulation. To efficiently search for the COF with the largest high-fidelity Xe/Kr selectivity, we employ a multi-fidelity Bayesian optimization (MFBO) approach. MFBO constitutes a sequential, automated feedback loop of (1) conduct a low- or high-fidelity molecular simulation of Xe/Kr adsorption in a COF, (2) use the simulation data gathered thus far to train a surrogate model that cheaply predicts, with quantified uncertainty, the low- and high-fidelity simulated Xe/Kr selectivity of COFs from their structural/chemical features, and then (3) plan the next simulation (i.e., choose the next COF and fidelity) in consideration of balancing exploration, exploitation, and cost. We find that MFBO acquires the optimal COF among the candidate set of 609 structures using only 38 low-fidelity and nine high-fidelity simulations, incurring only 2.5%, 5% on average, and 18% on average of the computational runtime of an exhaustive, random, and single-fidelity BO search, respectively."
 }
 </script>
 
@@ -380,7 +380,7 @@
 
 
 
-  <title>Bayesian Optimization over High-Dimensional Combinatorial Spaces via Dictionary-based Embeddings | Aryan Deshwal</title>
+  <title>Multi-fidelity Bayesian Optimization of Covalent Organic Frameworks for Xenon/Krypton Separations | Aryan Deshwal</title>
 
 </head>
 
@@ -638,7 +638,7 @@
   
   
 <div class="article-container pt-3">
-  <h1>Bayesian Optimization over High-Dimensional Combinatorial Spaces via Dictionary-based Embeddings</h1>
+  <h1>Multi-fidelity Bayesian Optimization of Covalent Organic Frameworks for Xenon/Krypton Separations</h1>
 
   
 
@@ -656,7 +656,7 @@
     
 
   
-  <span >Aryan Deshwal</span>, <span >Sebastian Ament</span>, <span >Maximilian Balandat</span>, <span >Eytan Bakshy</span>, <span >Janardhan Rao Doppa</span>, <span >David Eriksson</span>
+  <span >Nickolas Gantzler</span>, <span >Aryan Deshwal</span>, <span >Janardhan Rao Doppa</span>, <span >Cory Simon</span>
   </div>
   
   
@@ -667,7 +667,7 @@
     
       
     
-    May 2023
+    June 2023
   </span>
   
 
@@ -715,7 +715,7 @@
 
 
 
-<a class="btn btn-outline-primary my-1 mr-1" href="https://proceedings.mlr.press/v206/deshwal23a.html" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://chemrxiv.org/engage/chemrxiv/article-details/64970d6a4821a835f355c8b9" target="_blank" rel="noopener">
   PDF
 </a>
 
@@ -726,7 +726,7 @@
   
     
   
-<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/aryandeshwal/BODi" target="_blank" rel="noopener">
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/SimonEnsemble/multi-fidelity-BO-of-COFs-for-Xe-Kr-seps" target="_blank" rel="noopener">
   Code
 </a>
 
@@ -755,7 +755,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">We consider the problem of optimizing expensive black-box functions over high-dimensional combinatorial spaces which arises in many science, engineering, and ML applications. We use Bayesian Optimization (BO) and propose a novel surrogate modeling approach for efficiently handling a large number of binary and categorical parameters. The key idea is to select a number of discrete structures from the input space (the dictionary) and use them to define an ordinal embedding for high-dimensional combinatorial structures. This allows us to use existing Gaussian process models for continuous spaces. We develop a principled approach based on binary wavelets to construct dictionaries for binary spaces, and propose a randomized construction method that generalizes to categorical spaces. We provide theoretical justification to support the effectiveness of the dictionary-based embeddings. Our experiments on diverse real-world benchmarks demonstrate the effectiveness of our proposed surrogate modeling approach over state-of-the-art BO methods.</p>
+    <p class="pub-abstract">Our objective is to search a large candidate set of covalent organic frameworks (COFs) for the one with the largest equilibrium adsorptive selectivity for xenon (Xe) over krypton (Kr) at room temperature. To predict the Xe/Kr selectivity of a COF structure, we have access to two molecular simulation techniques: (1) a higher-fidelity, binary grand canonical Monte Carlo simulation and (2) a lower-fidelity Henry coefficient calculation that (a) approximates the adsorbed phase as dilute and, consequently, (b) incurs a smaller computational runtime than the higher-fidelity simulation. To efficiently search for the COF with the largest high-fidelity Xe/Kr selectivity, we employ a multi-fidelity Bayesian optimization (MFBO) approach. MFBO constitutes a sequential, automated feedback loop of (1) conduct a low- or high-fidelity molecular simulation of Xe/Kr adsorption in a COF, (2) use the simulation data gathered thus far to train a surrogate model that cheaply predicts, with quantified uncertainty, the low- and high-fidelity simulated Xe/Kr selectivity of COFs from their structural/chemical features, and then (3) plan the next simulation (i.e., choose the next COF and fidelity) in consideration of balancing exploration, exploitation, and cost. We find that MFBO acquires the optimal COF among the candidate set of 609 structures using only 38 low-fidelity and nine high-fidelity simulations, incurring only 2.5%, 5% on average, and 18% on average of the computational runtime of an exhaustive, random, and single-fidelity BO search, respectively.</p>
     
 
     
@@ -767,8 +767,8 @@
           <div class="col-12 col-md-9">
             
             
-            <a href="/publication/#1">
-              Conference paper
+            <a href="/publication/#2">
+              Journal article
             </a>
             
           </div>
@@ -785,7 +785,7 @@
       <div class="col-md-10">
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Publication</div>
-          <div class="col-12 col-md-9"><em>Twenty-Sixth International Conference on Artificial Intelligence and Statistics (AISTATS)</em></div>
+          <div class="col-12 col-md-9"><em>Digitial Discovery</em></div>
         </div>
       </div>
       <div class="col-md-1"></div>
@@ -862,28 +862,6 @@
 
 
   
-    
-    
-
-
-
-
-
-  
-
-
-  
-    
-    
-
-
-
-
-
-  
-
-
-  
 
 
 
@@ -902,13 +880,13 @@
     <h3>Related</h3>
     <ul>
       
-      <li><a href="/publication/nick-2023-dd/">Multi-fidelity Bayesian Optimization of Covalent Organic Frameworks for Xenon/Krypton Separations</a></li>
+      <li><a href="/publication/deshwal-2021-mofs/">Bayesian Optimization of Nanoporous Materials</a></li>
+      
+      <li><a href="/publication/deshwal-2023-aistats/">Bayesian Optimization over High-Dimensional Combinatorial Spaces via Dictionary-based Embeddings</a></li>
       
       <li><a href="/publication/gaurav-2023-todaes/">Dynamic Power Management in Large Manycore Systems - A Learning-to-Search Framework</a></li>
       
       <li><a href="/publication/deshwal-2021-neurips/">Combining Latent Space and Structured Kernels for Bayesian Optimization over Combinatorial Spaces</a></li>
-      
-      <li><a href="/publication/deshwal-2021-mofs/">Bayesian Optimization of Nanoporous Materials</a></li>
       
       <li><a href="/publication/deshwal-2022-aaai/">Bayesian Optimization over Permutation Spaces</a></li>
       
