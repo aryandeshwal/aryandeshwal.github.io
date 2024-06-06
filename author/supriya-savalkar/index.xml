@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Supriya Savalkar | Aryan Deshwal</title>
+    <link>https://aryandeshwal.github.io/author/supriya-savalkar/</link>
+      <atom:link href="https://aryandeshwal.github.io/author/supriya-savalkar/index.xml" rel="self" type="application/rss+xml" />
+    <description>Supriya Savalkar</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Mon, 02 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://aryandeshwal.github.io/images/icon_hu2bca26d411be61eec5325dfd373711ef_1948249_512x512_fill_lanczos_center_3.png</url>
+      <title>Supriya Savalkar</title>
+      <link>https://aryandeshwal.github.io/author/supriya-savalkar/</link>
+    </image>
+    
+    <item>
+      <title>Streamflow Prediction with Uncertainty Quantification for Water Management</title>
+      <link>https://aryandeshwal.github.io/publication/amine-2024-ijcai/</link>
+      <pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://aryandeshwal.github.io/publication/amine-2024-ijcai/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
