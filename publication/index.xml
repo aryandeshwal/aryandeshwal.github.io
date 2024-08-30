@@ -5,12 +5,20 @@
     <link>https://aryandeshwal.github.io/publication/</link>
       <atom:link href="https://aryandeshwal.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 04 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 05 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://aryandeshwal.github.io/images/icon_hu2bca26d411be61eec5325dfd373711ef_1948249_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
       <link>https://aryandeshwal.github.io/publication/</link>
     </image>
+    
+    <item>
+      <title>Sample-Efficient Bayesian Optimization with Transfer Learning for Heterogeneous Search Spaces</title>
+      <link>https://aryandeshwal.github.io/publication/deshwal-2024-automl/</link>
+      <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://aryandeshwal.github.io/publication/deshwal-2024-automl/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Machine Learning Enabled Design and Optimization for 3D‐Printing of High‐Fidelity Presurgical Organ Models</title>

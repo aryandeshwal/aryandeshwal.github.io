@@ -2,10 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://aryandeshwal.github.io/publication-type/2/</loc>
-    <lastmod>2022-09-09T20:19:28-07:00</lastmod>
-  </url><url>
-    <loc>https://aryandeshwal.github.io/author/alaleh-ahmadianshalchi/</loc>
+    <loc>https://aryandeshwal.github.io/publication-type/1/</loc>
     <lastmod>2022-09-09T20:19:28-07:00</lastmod>
   </url><url>
     <loc>https://aryandeshwal.github.io/author/aryan-deshwal/</loc>
@@ -15,6 +12,30 @@
     <lastmod>2022-09-09T20:19:28-07:00</lastmod>
   </url><url>
     <loc>https://aryandeshwal.github.io/authors/</loc>
+    <lastmod>2022-09-09T20:19:28-07:00</lastmod>
+  </url><url>
+    <loc>https://aryandeshwal.github.io/author/david-eriksson/</loc>
+    <lastmod>2022-09-09T20:19:28-07:00</lastmod>
+  </url><url>
+    <loc>https://aryandeshwal.github.io/publication_types/</loc>
+    <lastmod>2022-09-09T20:19:28-07:00</lastmod>
+  </url><url>
+    <loc>https://aryandeshwal.github.io/publication/</loc>
+    <lastmod>2022-09-09T20:19:28-07:00</lastmod>
+  </url><url>
+    <loc>https://aryandeshwal.github.io/author/sait-cakmak/</loc>
+    <lastmod>2022-09-09T20:19:28-07:00</lastmod>
+  </url><url>
+    <loc>https://aryandeshwal.github.io/publication/deshwal-2024-automl/</loc>
+    <lastmod>2022-09-09T20:19:28-07:00</lastmod>
+  </url><url>
+    <loc>https://aryandeshwal.github.io/author/yuhou-xia/</loc>
+    <lastmod>2022-09-09T20:19:28-07:00</lastmod>
+  </url><url>
+    <loc>https://aryandeshwal.github.io/publication-type/2/</loc>
+    <lastmod>2022-09-09T20:19:28-07:00</lastmod>
+  </url><url>
+    <loc>https://aryandeshwal.github.io/author/alaleh-ahmadianshalchi/</loc>
     <lastmod>2022-09-09T20:19:28-07:00</lastmod>
   </url><url>
     <loc>https://aryandeshwal.github.io/author/chuchu-chen/</loc>
@@ -32,17 +53,8 @@
     <loc>https://aryandeshwal.github.io/publication/alaleh-2024-amt/</loc>
     <lastmod>2022-09-09T20:19:28-07:00</lastmod>
   </url><url>
-    <loc>https://aryandeshwal.github.io/publication_types/</loc>
-    <lastmod>2022-09-09T20:19:28-07:00</lastmod>
-  </url><url>
-    <loc>https://aryandeshwal.github.io/publication/</loc>
-    <lastmod>2022-09-09T20:19:28-07:00</lastmod>
-  </url><url>
     <loc>https://aryandeshwal.github.io/author/sonja-s.-sparks/</loc>
     <lastmod>2022-09-09T20:19:28-07:00</lastmod>
-  </url><url>
-    <loc>https://aryandeshwal.github.io/publication-type/1/</loc>
-    <lastmod>2022-09-08T20:19:28-07:00</lastmod>
   </url><url>
     <loc>https://aryandeshwal.github.io/author/azza-fadhel/</loc>
     <lastmod>2022-09-08T20:19:28-07:00</lastmod>
@@ -99,9 +111,6 @@
     <lastmod>2022-09-08T20:19:28-07:00</lastmod>
   </url><url>
     <loc>https://aryandeshwal.github.io/publication/deshwal-2023-aistats/</loc>
-    <lastmod>2022-09-08T20:19:28-07:00</lastmod>
-  </url><url>
-    <loc>https://aryandeshwal.github.io/author/david-eriksson/</loc>
     <lastmod>2022-09-08T20:19:28-07:00</lastmod>
   </url><url>
     <loc>https://aryandeshwal.github.io/author/eytan-bakshy/</loc>

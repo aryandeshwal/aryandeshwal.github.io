@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>David Eriksson | Aryan Deshwal</title>
-    <link>https://aryandeshwal.github.io/author/david-eriksson/</link>
-      <atom:link href="https://aryandeshwal.github.io/author/david-eriksson/index.xml" rel="self" type="application/rss+xml" />
-    <description>David Eriksson</description>
+    <title>Yuhou Xia | Aryan Deshwal</title>
+    <link>https://aryandeshwal.github.io/author/yuhou-xia/</link>
+      <atom:link href="https://aryandeshwal.github.io/author/yuhou-xia/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yuhou Xia</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 05 Sep 2024 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://aryandeshwal.github.io/images/icon_hu2bca26d411be61eec5325dfd373711ef_1948249_512x512_fill_lanczos_center_3.png</url>
-      <title>David Eriksson</title>
-      <link>https://aryandeshwal.github.io/author/david-eriksson/</link>
+      <title>Yuhou Xia</title>
+      <link>https://aryandeshwal.github.io/author/yuhou-xia/</link>
     </image>
     
     <item>
@@ -17,14 +17,6 @@
       <link>https://aryandeshwal.github.io/publication/deshwal-2024-automl/</link>
       <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
       <guid>https://aryandeshwal.github.io/publication/deshwal-2024-automl/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Bayesian Optimization over High-Dimensional Combinatorial Spaces via Dictionary-based Embeddings</title>
-      <link>https://aryandeshwal.github.io/publication/deshwal-2023-aistats/</link>
-      <pubDate>Mon, 01 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://aryandeshwal.github.io/publication/deshwal-2023-aistats/</guid>
       <description></description>
     </item>
     
