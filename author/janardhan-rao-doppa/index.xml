@@ -5,12 +5,20 @@
     <link>https://aryandeshwal.github.io/author/janardhan-rao-doppa/</link>
       <atom:link href="https://aryandeshwal.github.io/author/janardhan-rao-doppa/index.xml" rel="self" type="application/rss+xml" />
     <description>Janardhan Rao Doppa</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 04 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 05 Jan 2025 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://aryandeshwal.github.io/images/icon_hu2bca26d411be61eec5325dfd373711ef_1948249_512x512_fill_lanczos_center_3.png</url>
       <title>Janardhan Rao Doppa</title>
       <link>https://aryandeshwal.github.io/author/janardhan-rao-doppa/</link>
     </image>
+    
+    <item>
+      <title>Constraint-Adaptive Policy Switching for Offline Safe Reinforcement Learning</title>
+      <link>https://aryandeshwal.github.io/publication/chemingui-2025-aaai/</link>
+      <pubDate>Sun, 05 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>https://aryandeshwal.github.io/publication/chemingui-2025-aaai/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Machine Learning Enabled Design and Optimization for 3D‐Printing of High‐Fidelity Presurgical Organ Models</title>
