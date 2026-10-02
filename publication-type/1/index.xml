@@ -5,12 +5,36 @@
     <link>https://aryandeshwal.github.io/publication-type/1/</link>
       <atom:link href="https://aryandeshwal.github.io/publication-type/1/index.xml" rel="self" type="application/rss+xml" />
     <description>1</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Thu, 05 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Tue, 07 Jul 2026 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://aryandeshwal.github.io/images/icon_hu2bca26d411be61eec5325dfd373711ef_1948249_512x512_fill_lanczos_center_3.png</url>
       <title>1</title>
       <link>https://aryandeshwal.github.io/publication-type/1/</link>
     </image>
+    
+    <item>
+      <title>Aligning Language Models with Selective Prediction</title>
+      <link>https://aryandeshwal.github.io/publication/luo-2026-neurips/</link>
+      <pubDate>Tue, 07 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://aryandeshwal.github.io/publication/luo-2026-neurips/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Adaptive Experimental Design to Accelerate Scientific Discovery and Engineering Design</title>
+      <link>https://aryandeshwal.github.io/publication/deshwal-2026-ijcai-ecs/</link>
+      <pubDate>Sun, 05 Jul 2026 00:00:00 +0000</pubDate>
+      <guid>https://aryandeshwal.github.io/publication/deshwal-2026-ijcai-ecs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>AI-driven discovery of feasible 3D printing configurations for metal alloys</title>
+      <link>https://aryandeshwal.github.io/publication/fadhel-2026-aimag/</link>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 +0000</pubDate>
+      <guid>https://aryandeshwal.github.io/publication/fadhel-2026-aimag/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Discovery of Feasible 3D Printing Configurations for Metal Alloys via AI-Driven Adaptive Experimental Design</title>
